@@ -1,5 +1,5 @@
 #PSYC 259 Homework 2 - Data Transformation
-#For full credit, provide answers for at least 7/10
+#For full credit, provide answers for at least 7/10 (10/10)
 
 #List names of students collaborating with: 
 # NA; myself only (Priscilla Whang)
@@ -75,7 +75,7 @@ head(ds)
 
 #ANSWER
 ds <- ds %>% 
-  arrange(ds, rank)
+  arrange(ds, rank) #if you use pipes, you don't need to include the dataframe in the arrange function
 
 head(ds)
 
